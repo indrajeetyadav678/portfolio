@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ============header navbar======================== */
+.navbar-box{
+    width:100%;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    position: fixed;
+
+}
+
+.navbar-box #navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 13px;
+    
+}
+
+.navbar-box #navbar li a img{
+    width: 160px;
+    margin-right: 100px;
+}
+
+.navbar-box #navbar li a{
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+    margin:18px;
+}
+
+.navbar-box #navbar li a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+
+.navbar-box #download a{
+    
+    padding:10px;
+    background-color: blue;
+    border-radius: 3px;   
+}
+
+.navbar-box #download a:hover{
+    background-color: rgb(218, 215, 215);
+    color:red;
+}
+
+/* ============== header Hero section =========================================== */
+
+.hero1 div{
+    margin-bottom: 10px;
+}
+
+#say-hello    {
+    width:150px;
+    height: 50px;
+    background-color: white;
+    padding: 10px 5px 10px 16px;
+    font-size: 23px; 
+    color:black;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.hero2 img{
+    height: 450px;
+}
+
+.hero2-circle-icon{
+    display: flex;  
+    position: absolute; 
+    right:130px;
+    margin-bottom: 20px;
+}
+
+.hero2-circle-icon div{
+    width:35px;
+    height:35px;
+    margin-right:15px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+
+.hero2{
+    width:40%;
+    display: flex; 
+    justify-content: start; 
+    align-items:end; 
+    
+}
+
+.hero2-circle-icon div a i{
+    font-size: 20px;
+    color: black;
+    padding: 8px;   
+}
+
+#hero{
+    padding-left: 11%; 
+    display: flex;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+}
+
+
+
+/* =================Hero section footer================================= */ 
+
+.hero-footer{
+    width: 100%;
+    height: 200px;
+    border:1px solid black;
+}
